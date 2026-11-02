@@ -31,7 +31,7 @@ DELETE {{Server}}/api/tasks
 Content-Type: application/json
 
 ### Update a task by id
-PUT {{Server}}/api/tasks/10
+PATCH  {{Server}}/api/tasks/10
 Content-Type: application/json
 
 {
